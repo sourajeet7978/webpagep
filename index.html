@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Love You Puja</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ffdde1, #ee9ca7);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #fff;
+            text-shadow: 2px 2px 4px #00000050;
+            margin-bottom: 20px;
+        }
+
+        .heart {
+            font-size: 5em;
+            color: red;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+
+        .love-note {
+            font-size: 1.5em;
+            color: #fff;
+            max-width: 500px;
+            margin-top: 20px;
+            text-shadow: 1px 1px 2px #00000030;
+        }
+
+        .glow {
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #f06292, 0 0 30px #f06292;
+            }
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ec407a, 0 0 40px #ec407a;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="glow">Love You Puja</h1>
+    <div class="heart">❤️</div>
+    <div class="love-note">
+        You light up my life in every possible way. This heart beats just for you.
+    </div>
+</body>
+</html>
+
